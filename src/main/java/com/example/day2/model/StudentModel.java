@@ -5,7 +5,7 @@ public class StudentModel {
     private long id;
     private String name;
     private  String email;
-    StudentModel(long id,String name,String email){
+    public StudentModel(long id, String name, String email){
         this.id=id;
         this.name=name;
         this.email=email;
